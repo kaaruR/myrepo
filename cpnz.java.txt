@@ -1,31 +1,28 @@
-import java.io.*;
-{
-public static void main(String args[])
-{
-DataInputStream ds=new DataInputStream(System.in);
-int n=Integer.parseInt(ds.readline());
-if(n>1)
-{
-for(int i=0;i<2;i++)
-{
-int c=n%2;
-int n=n/10;
-for(int j=0;j<2;j++)
-{
-int[] arr = new int[5];
-}
-printf("");
-}
-}
-elseif(n<1)
-{
-System.out.println("0");
-}
-else
-{
-System.out.println("Zero");
-}
-}
+import java.util.Scanner;
+
+public class cpnz {
+		private static Scanner sc;
+
+		public static void main(String args[])
+		{
+			sc = new Scanner(System.in);
+			int n=sc.nextInt();
+			if(n!=0)
+			{
+			if(n>1)
+			{
+			System.out.println("positive");
+			}
+			else 
+			{
+			System.out.println("negative");
+			}}
+			else
+			{
+			System.out.println("Zero");
+		}
+	}
+
 }
 
 

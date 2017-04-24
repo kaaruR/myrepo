@@ -8,11 +8,13 @@ Scanner sc=new Scanner(System.in);
 System.out.println("enter any number:");
 int n=sc.nextInt();
 int sum=0;
+int i=1;
 if(n>0)
 {
-for(int i=1;i<=n;i++)
+while(i<=n)
 {
 sum=sum+i;
+i++;
 }
 System.out.println(sum);
 }
